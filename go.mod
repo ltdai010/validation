@@ -1,4 +1,4 @@
-module gitlab.123xe.vn/dailt/validation
+module github.com/ltdai010/validation
 
 go 1.15
 
