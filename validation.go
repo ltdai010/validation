@@ -22,6 +22,20 @@ func (this CoinsStruct) Validate() error {
 	return errordata.SUCCESS
 }
 
+func SEInt64(number, max int64) error {
+	if number > max {
+		return errordata.BAD_REQUEST
+	}
+	return errordata.SUCCESS
+}
+
+func SEFloat64(number, max float64) error {
+	if number > max {
+		return errordata.BAD_REQUEST
+	}
+	return errordata.SUCCESS
+}
+
 func AddressBTCFormat(address string) error {
 	err := validation.Validate(address, validation.Required, validation.Match(regexp.MustCompile(`^[0-9a-zA-Z]{34}$`)))
 	if err != nil {
