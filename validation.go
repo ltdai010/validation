@@ -19,21 +19,21 @@ func (this CoinsStruct) Validate() error {
 	if err != nil {
 		return errordata.VALIDATION_COIN
 	}
-	return errordata.SUCCESS
+	return nil
 }
 
 func SEInt64(number, max int64) error {
 	if number > max {
 		return errordata.BAD_REQUEST
 	}
-	return errordata.SUCCESS
+	return nil
 }
 
 func SEFloat64(number, max float64) error {
 	if number > max {
 		return errordata.BAD_REQUEST
 	}
-	return errordata.SUCCESS
+	return nil
 }
 
 func AddressBTCFormat(address string) error {
@@ -41,7 +41,7 @@ func AddressBTCFormat(address string) error {
 	if err != nil {
 		return errordata.VALIDATION_ADDRESS_BTC
 	}
-	return errordata.SUCCESS
+	return nil
 }
 
 func CheckPubkey(keys string) error {
@@ -49,7 +49,7 @@ func CheckPubkey(keys string) error {
 	if err != nil {
 		return errordata.PUBKEY_INVALID_ERROR
 	}
-	return errordata.SUCCESS
+	return nil
 }
 
 func CheckCoin(coin string) error {
@@ -57,7 +57,7 @@ func CheckCoin(coin string) error {
 	if err != nil {
 		return errordata.VALIDATION_COIN
 	}
-	return errordata.SUCCESS
+	return nil
 }
 
 type ValidateListWarning struct {
@@ -75,7 +75,7 @@ func (this *ValidateListWarning) Validate() error {
 	if err != nil {
 		return errordata.BAD_REQUEST
 	}
-	return errordata.SUCCESS
+	return nil
 }
 
 type ValidateUserWarning struct {
@@ -91,5 +91,5 @@ func (this *ValidateUserWarning) Validate() error {
 	if err != nil {
 		return errordata.BAD_REQUEST
 	}
-	return errordata.SUCCESS
+	return nil
 }
