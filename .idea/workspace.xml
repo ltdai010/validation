@@ -29,7 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testfile" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
@@ -45,10 +45,14 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="104" width="1271" height="912" key="SettingsEditor" timestamp="1619668225909">
+    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl" timestamp="1619680225540">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="324" y="104" width="1271" height="912" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1619668225909" />
+    <state x="690" y="258" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1619680225540" />
+    <state x="324" y="104" width="1271" height="912" key="SettingsEditor" timestamp="1619682038734">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="324" y="104" width="1271" height="912" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1619682038734" />
     <state x="539" y="45" key="search.everywhere.popup" timestamp="1619677853599">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.123xe.vn/dailt/validation/errordata"
+	"github.com/ltdai010/validation/errordata"
 	"regexp"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
